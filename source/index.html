@@ -54,48 +54,82 @@
     <section class="hero">
       <div class="hero__slider slider">
         <ul class="slider__list">
-          <li class="slider__item">
-            <img src="" alt="Кофе Декаф Флэт Уайт">
+          <li class="slider__item slider__item--flatwhite">
+            <picture>
+              <source media="(min-width: 1440px)"
+                srcset="images/slider/flatwhite-desktop.png 1x, images/slider/flatwhite-desktop@2x.png 2x" width="600"
+                height="600">
+              <source media="(min-width: 768px)"
+                srcset="images/slider/flatwhite-tablet.png 1x, images/slider/flatwhite-tablet@2x.png 2x" width="476"
+                height="476">
+              <img class="slider__img" src="images/slider/flatwhite-mobile.png"
+                srcset="images/flatwhite-mobile@2x.png 2x" width="280" height="280" alt="Кофе Декаф Флэт Уайт">
+            </picture>
             <span class="slider__tag">Новинка!</span>
             <h2 class="slider__title">Декаф Флэт Уайт</h2>
-            <p class="slider__text">Свежесваренный кофе без кофеина из Эфиопии
+            <p class="slider__text">Свежесваренный кофе без кофеина из Эфиопии <br>
               с натуральным фермерским молоком — то, что нужно
               для расслабления после тяжёлого рабочего дня</p>
-            <span class="slider__old-price">295₽</span>
-            <span class="slider__old-price">225₽</span>
-            <button class="slider__button button">Заказать</button>
+            <div class="slider__wrapper">
+              <span class="slider__old-price">295₽</span>
+              <span class="slider__new-price">225₽</span>
+              <button class="slider__button-buy button">Заказать</button>
+            </div>
           </li>
 
-          <li class="slider__item">
-            <img src="" alt="Кофе Лавандовый Латте">
+          <li class="slider__item slider__item--lavender">
+            <picture>
+              <source media="(min-width: 1440px)"
+                srcset="images/slider/lavender-desktop.png 1x, images/slider/lavender-desktop@2x.png 2x" width="600"
+                height="600">
+              <source media="(min-width: 768px)"
+                srcset="images/slider/lavender-tablet.png 1x, images/slider/lavender-tablet@2x.png 2x" width="476"
+                height="476">
+              <img class="slider__img" src="images/slider/lavender-mobile.png"
+                srcset="images/slider/lavender-mobile@2x.png" width="280" height="280" alt="Кофе Лавандовый Латте">
+            </picture>
             <span class="slider__tag">Новинка!</span>
             <h2 class="slider__title">Лавандовый Латте</h2>
             <p class="slider__text">Невероятное сочетание перуанской высокогорной арабики с молоком ламы и лавандовым
               сиропом унесёт вас прямо на вершину Радужных гор</p>
-            <span class="slider__old-price">285₽</span>
-            <span class="slider__old-price">265₽</span>
-            <button class="slider__button button">Заказать</button>
+            <div class="slider__wrapper">
+              <span class="slider__old-price">285₽</span>
+              <span class="slider__new-price">265₽</span>
+              <button class="slider__button-buy button">Заказать</button>
+            </div>
           </li>
 
-          <li class="slider__item">
-            <img src="" alt="Кофе Тройной Эспрессо">
+          <li class="slider__item slider__item--espresso">
+            <picture>
+              <source media="(min-width: 1440px)"
+                srcset="images/slider/espresso-desktop.png 1x, images/slider/espresso-desktop@2x.png 2x" width="600"
+                height="600">
+              <source media="(min-width: 768px)"
+                srcset="images/slider/espresso-tablet.png 1x, images/slider/espresso-tablet@2x.png 2x" width="476"
+                height="476">
+              <img class="slider__img" src="images/slider/espresso-mobile.png"
+                srcset="images/slider/espresso-mobile@2x.png" width="280" height="280" alt="Кофе Тройной Эспрессо">
+            </picture>
             <span class="slider__tag">Новинка!</span>
             <h2 class="slider__title">Тройной Эспрессо</h2>
-            <p class="slider__text">Мощнее укола адреналина, чернее самой тёмной ночи, этот тройной эспрессо из Колумбии
+            <p class="slider__text">Мощнее укола адреналина, чернее самой тёмной ночи, этот тройной эспрессо из
+              Колумбии
               покажет вам, что такое настоящая бодрость</p>
-            <span class="slider__old-price">395₽</span>
-            <span class="slider__old-price">375₽</span>
-            <button class="slider__button button">Заказать</button>
+            <div class="slider__wrapper">
+              <span class="slider__old-price">395₽</span>
+              <span class="slider__new-price">375₽</span>
+              <button class="slider__button-buy button">Заказать</button>
+            </div>
           </li>
 
         </ul>
-        <button class="slider__button-prev" aria-label="Посмотреть предыдущий слайд"></button>
-        <button class="slider__button-next" aria-label="Посмотреть следующий слайд"></button>
-        <div class="slider__pagination">
+        <button class="slider__button slider__button-prev" aria-label="Посмотреть предыдущий слайд"></button>
+        <button class="slider__button slider__button-next" aria-label="Посмотреть следующий слайд"></button>
+        <!-- <div class="slider__pagination">
           <div class="slider__dot active-dot"></div>
           <div class="slider__dot"></div>
           <div class="slider__dot"></div>
-        </div>
+        </div> -->
       </div>
     </section>
     <section class="features">

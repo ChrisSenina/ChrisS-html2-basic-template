@@ -4,7 +4,12 @@
 @import "./global/fonts.scss";
 @import "./global/visually-hidden.scss";
 
+/* ELEMENTS */
+@import "./elements/button.scss";
+
 /* BLOCKS */
 @import "./blocks/header/header.scss";
 @import "./blocks/header/nav.scss";
-@import "./blocks/header/site-list.scss"
+@import "./blocks/header/site-list.scss";
+@import "./blocks/hero.scss";
+@import "./blocks/slider.scss"
