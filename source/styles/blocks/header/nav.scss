@@ -1,0 +1,97 @@
+.nav {
+  background: #fff;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: nowrap;
+
+  @media (min-width: $tablet-width) {
+    align-items: center;
+    width: unset;
+    padding-left: 43px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-left: 110px;
+  }
+}
+
+.nav__list-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+
+  @media (min-width: $tablet-width) {
+    padding-left: 66px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-left: 187px;
+    gap: 35px;
+  }
+}
+
+.nav__link {
+  padding: 15px 30px;
+
+  @media (min-width: $tablet-width) {
+    padding: 28px 29px;
+  }
+}
+
+.nav__link-text {
+  font-size: 0;
+
+  @media (min-width: $desktop-width) {
+    font-size: 12px;
+    line-height: 16px;
+    font-style: normal;
+    text-transform: uppercase;
+  }
+}
+
+.nav__link--account {
+  background: url("/images/header/account.svg") no-repeat center;
+
+  @media (min-width: $desktop-width) {
+    background-position: left center;
+  }
+}
+
+.nav__link--basket {
+  background: url("/images/header/basket.svg") no-repeat center;
+
+  @media (min-width: $desktop-width) {
+    background-position: left center;
+  }
+}
+
+.nav--opened .nav__toggle {
+  background: url("/images/header/nav-closed.svg") no-repeat center;
+  padding: 15px 30px;
+  border: none;
+
+  @media (min-width: $tablet-width) {
+    display: none;
+  }
+}
+
+.nav--closed .nav__toggle {
+  background: url("/images/header/nav-opened.svg") no-repeat center;
+  padding: 15px 30px;
+  border: none;
+
+  @media (min-width: $tablet-width) {
+    display: none;
+  }
+}
+
+.nav__toggle {
+  display: block;
+  cursor: pointer;
+}
+
+.nav--closed .nav__list-item {
+  @media (max-width: $mobile-width-only) {
+    display: none;
+  }
+}

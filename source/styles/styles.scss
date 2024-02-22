@@ -1,0 +1,10 @@
+/* GLOBAL */
+@import "./global/variables.scss";
+@import "./global/global.scss";
+@import "./global/fonts.scss";
+@import "./global/visually-hidden.scss";
+
+/* BLOCKS */
+@import "./blocks/header/header.scss";
+@import "./blocks/header/nav.scss";
+@import "./blocks/header/site-list.scss"
