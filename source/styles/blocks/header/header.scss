@@ -3,8 +3,8 @@
     flex-wrap: nowrap;
     font-family: "Montserrat";
 
-    @media (min-width: $tablet-width) {
-
+    @media (min-width: $desktop-width) {
+      padding: 1px 0 3px;
     }
   }
 
@@ -19,7 +19,6 @@
   @media (min-width: $desktop-width) {
     display: flex;
     padding: 22px 40px 7px;
-    gap: 17px;
   }
 }
 
@@ -55,9 +54,11 @@
   display: none;
 
   @media (min-width: $desktop-width) {
+    font-size: 12px;
+    font-weight: 400;
     display: block;
     align-self: center;
-    width: 135px;
-    margin-top: 0;
+    width: 155px;
+    margin: -8px 0 0 21px;
   }
 }
