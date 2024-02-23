@@ -31,8 +31,10 @@
 .slider__item {
   text-align: center;
   padding: 21px 0 70px;
+  height: 656px;
 
   @media (min-width: $tablet-width) {
+    height: unset;
     padding: 61px 0 308px;
   }
 
@@ -82,7 +84,6 @@
   }
 }
 
-
 .slider__tag {
   display: block;
   color: $basic-primary;
@@ -127,11 +128,13 @@
   line-height: 20px;
   margin: 0;
   padding: 10px 25px;
+  height: 100px;
 
   @media (min-width: $tablet-width) {
     font-size: 20px;
     line-height: 32px;
     padding: 16px 0px 0 21px;
+    height: unset;
   }
 }
 
