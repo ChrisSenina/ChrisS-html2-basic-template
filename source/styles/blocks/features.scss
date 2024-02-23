@@ -40,22 +40,24 @@
   position: absolute;
   width: 52px;
   height: 56px;
+  top: 35px;
+  left: 135px;
 }
 
 
-.features__item--speed {
+.features__item--speed::before {
   background: url('/images/icons/icon-speed.svg') no-repeat center;
 }
 
-.features__item--fit {
+.features__item--fit::before {
   background: url('/images/icons/icon-fit.svg') no-repeat center;
 }
 
-.features__item--energy {
-  background: url('/images/icons/icon-energy.svg') no-repeat center;
+.features__item--energy::before {
+  background: url('/images/icons/icon-enegry.svg') no-repeat center;
 }
 
-.features__item--eco {
+.features__item--eco::before {
   background: url('/images/icons/icon-eco.svg') no-repeat center;
 }
 
@@ -67,10 +69,24 @@
   line-height: 32px;
 }
 
+.features__title--speed {
+  padding-top: 2px;
+}
+
 .features__text {
   margin: 0;
-  padding: 3px 0 0;
+  padding: 4px 0 0;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
+}
+
+.features__text br {
+  @media (min-width: $tablet-width) {
+    display: none;
+  }
+}
+
+.features__text--fit {
+  padding: 4px 20px 0;
 }
