@@ -6,7 +6,9 @@
   <title>Drink2Go — интернет-магазин по продаже кофейных напитков</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="stylesheet" href="styles/styles.css">
-  <script src="scripts/index.js" defer></script>
+  <link rel="stylesheet" href="vendor/nouislider/nouislider.css">
+  <script src="vendor/nouislider/nouislider.js"></script>
+  <script src="scripts/index.js" type="module" defer></script>
 </head>
 
 <body class="page__body">
@@ -176,10 +178,10 @@
             <div class="group-price__rangescale rangescale">
               <div class="rangescale__wrapper">
                 <div class="rangescale__range">
-                  <button class="rangescale__range-handle rangescale__range-handle--min" type="button">
+                  <button class="rangescale__range-handle" type="button">
                     <span class="visually-hidden">Установить минимальный порог цены</span>
                   </button>
-                  <button class="rangescale__range-handle rangescale__range-handle--max" type="button">
+                  <button class="rangescale__range-handle" type="button">
                     <span class="visually-hidden">Установить максимальный порог цены</span>
                   </button>
                 </div>
