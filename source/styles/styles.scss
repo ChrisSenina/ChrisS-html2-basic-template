@@ -9,6 +9,8 @@
 @import "./elements/tag.scss";
 @import "./elements/rangescale.scss";
 @import "./elements/text-input.scss";
+@import "./elements/radio.scss";
+@import "./elements/checkbox.scss";
 
 /* BLOCKS */
 @import "./blocks/header/header.scss";
@@ -19,4 +21,6 @@
 @import "./blocks/features.scss";
 @import "./blocks/catalog/catalog.scss";
 @import "./blocks/form/form.scss";
-@import "./blocks/form/group-price.scss"
+@import "./blocks/form/group-price.scss";
+@import "./blocks/form/group-options.scss";
+@import "./blocks/form/group-country.scss"

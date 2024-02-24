@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="styles/styles.css">
   <link rel="stylesheet" href="vendor/nouislider/nouislider.css">
   <script src="vendor/nouislider/nouislider.js"></script>
-  <script src="scripts/index.js" type="module" defer></script>
+  <script src="scripts/index.js" type="module"></script>
 </head>
 
 <body class="page__body">
@@ -217,7 +217,7 @@
             </li>
             <li class="form__item group-options__item radio">
               <input class="radio__input" type="radio" id="without" name="options-type" value="without" disabled>
-              <label class="radio__label" for="without">Без молока</label>
+              <label class="radio__label radio__label--disabled" for="without">Без молока</label>
             </li>
           </ul>
         </fieldset>
@@ -226,29 +226,39 @@
           <legend class="form__title group-country__title">Страна произрастания</legend>
           <ul class="form__list group-country__list">
             <li class="form__item group-country__item checkbox">
-              <input class="checkbox__input" type="checkbox" id="Brasil" name="Brasil" checked>
-              <label class="checkbox__label" for="Brasil">Бразилия</label>
+              <label class="checkbox__label" for="Brasil">
+                <input class="checkbox__input" type="checkbox" id="Brasil" name="Brasil" checked>
+                <span class="checkbox__inner">Бразилия</span>
+              </label>
             </li>
             <li class="form__item group-country__item checkbox">
-              <input class="checkbox__input" type="checkbox" id="Ethiopia" name="Ethiopia">
-              <label class="checkbox__label" for="Ethiopia">Эфиопия</label>
+              <label class="checkbox__label" for="Ethiopia">
+                <input class="checkbox__input" type="checkbox" id="Ethiopia" name="Ethiopia">
+                <span class="checkbox__inner">Эфиопия</span>
+              </label>
             </li>
             <li class="form__item group-country__item checkbox">
-              <input class="checkbox__input" type="checkbox" id="Colombia" name="Colombia">
-              <label class="checkbox__label" for="Colombia">Колумбия</label>
+              <label class="checkbox__label" for="Colombia">
+                <input class="checkbox__input" type="checkbox" id="Colombia" name="Colombia">
+                <span class="checkbox__inner">Колумбия</span>
+              </label>
             </li>
             <li class="form__item group-country__item checkbox">
-              <input class="checkbox__input" type="checkbox" id="Costarica" name="Costarica">
-              <label class="checkbox__label" for="Costarica">Коста-Рика</label>
+              <label class="checkbox__label" for="Costarica">
+                <input class="checkbox__input" type="checkbox" id="Costarica" name="Costarica">
+                <span class="checkbox__inner">Коста-Рика</span>
+              </label>
             </li>
             <li class="form__item group-country__item checkbox">
-              <input class="checkbox__input" type="checkbox" id="Peru" name="Peru" disabled>
-              <label class="checkbox__label" for="Peru">Перу</label>
+              <label class="checkbox__label" for="Peru">
+                <input class="checkbox__input" type="checkbox" id="Peru" name="Peru" disabled>
+                <span class="checkbox__inner">Перу</span>
+              </label>
             </li>
           </ul>
         </fieldset>
         <button class="form__button button button-submit" type="submit">Применить</button>
-        <button class="form__button button button-reset" type="reset">Применить</button>
+        <button class="form__button button button-reset" type="reset">Сбросить</button>
       </form>
       <div class="catalog__wrapper">
         <select class="catalog__select" aria-label="Сортировка">
