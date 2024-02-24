@@ -22,3 +22,22 @@
   padding: 20px 20px 0;
   list-style: none;
 }
+
+.form__wrapper {
+  margin: 9px 0 0;
+  padding: 0 21px;
+}
+
+.form__button {
+  width: 280px;
+  padding: 8px 20px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.form__button--reset {
+  background-color: $basic-white;
+  color: $basic-primary;
+  margin-top: 21px;
+}

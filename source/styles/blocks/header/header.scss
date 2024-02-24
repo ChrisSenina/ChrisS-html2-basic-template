@@ -1,7 +1,7 @@
 .header {
     display: flex;
     flex-wrap: nowrap;
-    font-family: "Montserrat";
+    font-family: "Montserrat", sans-serif;
 
     @media (min-width: $desktop-width) {
       padding: 1px 0 3px;

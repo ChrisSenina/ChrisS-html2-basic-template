@@ -1,5 +1,5 @@
 .catalog {
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   margin: 0;
   padding: 0;
   background-color: $lightest-grey;
@@ -18,4 +18,41 @@
   line-height: 36px;
   text-align: center;
   padding: 4px 4px 0 0;
+}
+
+.catalog__wrapper {
+  display: flex;
+  margin: 44px 0 0;
+  padding: 0 5px;
+  gap: 8px;
+}
+
+.catalog__wrapper-title {
+  margin: 0;
+  padding-left: 20px;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  font-weight: 600;
+}
+
+.catalog__select {
+  color: $basic-primary;
+  background: url('/images/icons/stack.svg#select') no-repeat transparent;
+  background-size: 10px 6px;
+  background-position: right 13px top 9px;
+  font-family: "Monsterrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  width: 168px;
+  height: 100%;
+  padding: 0 10px;
+  box-sizing: border-box;
+  border: 0;
+  cursor: pointer;
+  text-transform: lowercase;
+  text-align: left;
+  letter-spacing: 1px;
+  appearance: none;
 }
