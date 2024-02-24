@@ -11,6 +11,7 @@
 @import "./elements/text-input.scss";
 @import "./elements/radio.scss";
 @import "./elements/checkbox.scss";
+@import "./elements/card.scss";
 
 /* BLOCKS */
 @import "./blocks/header/header.scss";
@@ -23,4 +24,6 @@
 @import "./blocks/form/form.scss";
 @import "./blocks/form/group-price.scss";
 @import "./blocks/form/group-options.scss";
-@import "./blocks/form/group-country.scss"
+@import "./blocks/form/group-country.scss";
+@import "./blocks/catalog/products.scss";
+
