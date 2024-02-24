@@ -66,7 +66,7 @@
                 srcset="images/flatwhite-mobile@2x.png 2x" width="280" height="280" alt="Кофе Декаф Флэт Уайт">
             </picture>
             <div class="slider__container">
-              <span class="slider__tag">Новинка!</span>
+              <span class="slider__tag tag">Новинка!</span>
               <h2 class="slider__title">Декаф Флэт Уайт</h2>
               <p class="slider__text">Свежесваренный кофе без кофеина из Эфиопии <br>
                 с натуральным фермерским молоком — то, что нужно <br>
@@ -91,7 +91,7 @@
                 srcset="images/slider/lavender-mobile@2x.png" width="280" height="280" alt="Кофе Лавандовый Латте">
             </picture>
             <div class="slider__container">
-              <span class="slider__tag">Новинка!</span>
+              <span class="slider__tag tag">Новинка!</span>
               <h2 class="slider__title">Лавандовый Латте</h2>
               <p class="slider__text">Невероятное сочетание перуанской высокогорной арабики с молоком ламы и лавандовым
                 сиропом унесёт вас прямо на вершину Радужных гор</p>
@@ -115,7 +115,7 @@
                 srcset="images/slider/espresso-mobile@2x.png" width="280" height="280" alt="Кофе Тройной Эспрессо">
             </picture>
             <div class="slider__container">
-              <span class="slider__tag">Новинка!</span>
+              <span class="slider__tag tag">Новинка!</span>
               <h2 class="slider__title">Тройной Эспрессо</h2>
               <p class="slider__text">Мощнее укола адреналина, чернее самой тёмной ночи, этот тройной эспрессо из
                 Колумбии
@@ -139,7 +139,7 @@
       </div>
     </section>
     <section class="features">
-      <span class="features__tag">Преимущества</span>
+      <span class="features__tag tag">Преимущества</span>
       <h2 class="features__heading">Главные причины выбрать Drink2Go</h2>
       <ul class="features__list">
         <li class="features__item features__item--speed">
@@ -165,7 +165,7 @@
       </ul>
     </section>
     <section class="catalog">
-      <span class="catalog__tag">Каталог</span>
+      <span class="catalog__tag tag">Каталог</span>
       <h2 class="catalog__heading">Каталог кофейных напитков</h2>
       <form class="catalog__form form" action="https://echo.htmlacademy.ru/" method="get">
 
@@ -173,24 +173,27 @@
           <legend class="form__title group-price__title">Цена</legend>
 
           <div class="form__container group-price__container">
-            <label class="group-price__label label-min" for="min-price"></label>
-            <input class="group-price__number input-min" type="number" name="min-price" id="min-price" placeholder="0"
-              value="0">
-            <label class="group-price__label label-max" for="max-price"></label>
-            <input class="group-price__number input-max" type="number" name="max-price" id="max-price"
-              placeholder="9000" value="9000">
-          </div>
-          <div class="group-price__wrapper">
-            <div class="group-price__rangescale">
-              <div class="group-price__range range">
-                <button class="range__handle range__handle-min" type="button">
-                  <span class="visually-hidden">Установить минимальный порог цены</span>
-                </button>
-                <button class="range__handle range__handle-max" type="button">
-                  <span class="visually-hidden">Установить максимальный порог цены</span>
-                </button>
+            <div class="group-price__rangescale rangescale">
+              <div class="rangescale__wrapper">
+                <div class="rangescale__range">
+                  <button class="rangescale__range-handle rangescale__range-handle--min" type="button">
+                    <span class="visually-hidden">Установить минимальный порог цены</span>
+                  </button>
+                  <button class="rangescale__range-handle rangescale__range-handle--max" type="button">
+                    <span class="visually-hidden">Установить максимальный порог цены</span>
+                  </button>
+                </div>
               </div>
             </div>
+
+            <div class="group-price__wrapper text-input">
+              <label class="text-input__label" for="min-price"></label>
+              <input class="text-input__input" type="text" name="min-price" id="min-price" placeholder="0" value="0">
+              <label class="text-input__label" for="max-price"></label>
+              <input class="text-input__input text-input__input--max" type="text" name="max-price" id="max-price"
+                placeholder="900" value="900">
+            </div>
+          </div>
           </div>
         </fieldset>
 

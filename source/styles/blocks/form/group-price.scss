@@ -1,0 +1,30 @@
+.group-price {
+  padding: 24px 0 52px;
+  border: none;
+}
+
+.group-price__title {
+  padding: 0 20px;
+}
+
+.group-price__container {
+  padding: 0 20px;
+  position: relative;
+}
+
+.group-price__wrapper {
+  position: relative;
+  padding: 25px 0 0 2px;
+  display: flex;
+  gap: 44px;
+}
+
+.group-price__wrapper::after {
+  content: '';
+  position: absolute;
+  background-color: $basic-grey;
+  width: 8px;
+  height: 2px;
+  bottom: 21px;
+  left: 137px;
+}

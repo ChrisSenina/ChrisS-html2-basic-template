@@ -1,0 +1,42 @@
+.rangescale {
+  position: relative;
+  width: 280px;
+  height: 20px;
+}
+
+.rangescale__wrapper {
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  border-top: 4px solid $light-grey;
+  left: 1px;
+  top: 7px;
+  z-index: 1;
+}
+
+.rangescale__range {
+  width: 240px;
+  height: 1px;
+  border-top: 4px solid $basic-primary;
+  position: absolute;
+  left: 10px;
+  top: -5px;
+  z-index: 5;
+}
+
+.rangescale__range-handle {
+  width: 24px;
+  height: 24px;
+  background-color: $basic-white;
+  border-radius: 50%;
+  border: 2px solid $basic-primary;
+  cursor: pointer;
+  position: absolute;
+  top: -14px;
+  z-index: 10;
+  left: -9px;
+}
+
+.rangescale__range-handle--max {
+  left: 227px;
+}
