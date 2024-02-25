@@ -22,7 +22,7 @@
 
 .catalog__wrapper {
   display: flex;
-  margin: 44px 0 0;
+  margin: 44px 0 20px;
   padding: 0 5px;
   gap: 8px;
 }
@@ -58,6 +58,11 @@
 }
 
 .catalog__list {
+  margin: 0;
+  padding: 0;
+}
+
+.catalog__pagination {
   margin: 0;
   padding: 0;
 }

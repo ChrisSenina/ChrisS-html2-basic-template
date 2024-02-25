@@ -1,5 +1,14 @@
 .products__list {
-  margin: 0;
+  margin: 0 20px 43px;
   padding: 0;
   list-style: none;
+  text-align: left;
+  display: grid;
+  gap: 20px;
+}
+
+.products__item {
+  margin: 0;
+  padding: 40px 20px 0;
+  background-color: $basic-white;
 }

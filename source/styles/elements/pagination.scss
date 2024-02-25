@@ -1,0 +1,54 @@
+.pagination {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+
+}
+
+.pagination__link {
+  width: 24px;
+  height: 24px;
+  padding: 8px;
+  display: block;
+  cursor: pointer;
+  color: $basic-primary;
+  background-color: $basic-white;
+  border: none;
+  border-radius: 4px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}
+
+
+
+.pagination__link--back,
+.pagination__link--next {
+  line-height: 0;
+  font-size: 0;
+  color: transparent;
+  position: relative;
+}
+
+.pagination__link--back::after,
+.pagination__link--next::after {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  display: block;
+  top: 15px;
+  right: 15px;
+  background: url('/images/icons/stack.svg#arrow-back') no-repeat center center;
+}
+
+.pagination__link--next::after{
+  background: url('/images/icons/stack.svg#arrow-next') no-repeat center center;
+}
+.pagination__link--active {
+  color: $basic-black;
+  background-color: transparent;
+  font-weight: 600;
+}
