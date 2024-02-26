@@ -21,10 +21,8 @@
   flex-wrap: nowrap;
 
   @media (min-width: $tablet-width) {
-    padding-right: 5px;
+    padding-right: 22px;
   }
-
-  @media (min-width: $desktop-width) {}
 }
 
 .nav__link {
@@ -36,6 +34,7 @@
 
   @media (min-width: $desktop-width) {
     padding: 29px 9px;
+    text-align: center;
   }
 }
 
@@ -48,7 +47,6 @@
     line-height: 16px;
     font-style: normal;
     text-transform: uppercase;
-    padding-left: 17px;
   }
 }
 
@@ -56,7 +54,7 @@
   background: url("/images/header/account.svg") no-repeat center;
 
   @media (min-width: $desktop-width) {
-    background-position: left center;
+    background-position: 18px center;
     width: 112px;
   }
 }
@@ -65,7 +63,7 @@
   background: url("/images/header/basket.svg") no-repeat center;
 
   @media (min-width: $desktop-width) {
-    background-position: left center;
+    background-position: 19px center;
     width: 129px;
   }
 }

@@ -23,13 +23,17 @@
   content: '';
   position: absolute;
   display: block;
-  left: -34px;
+  left: -36px;
   top: 0;
   width: 42px;
   height: 24px;
   border-radius: 12px;
   background-color: $basic-grey;
   transition: background-color .3s;
+
+  @media (min-width: $tablet-width) {
+    left: -33px;
+  }
 }
 
 .checkbox__inner::after {
@@ -37,12 +41,16 @@
   position: absolute;
   display: block;
   top: 2px;
-  left: -30px;
+  left: -34px;
   width: 20px;
   height: 20px;
   border-radius: 50%;
   background-color: $basic-white;
   z-index: 2;
+
+  @media (min-width: $tablet-width) {
+    left: -31px;
+  }
 }
 
 .checkbox__input:checked+.checkbox__inner::before {
@@ -51,5 +59,9 @@
 
 .checkbox__input:checked+.checkbox__inner::after {
   background-color: $basic-white;
-  left: -14px;
+  left: -16px;
+
+  @media (min-width: $tablet-width) {
+    left: -13px;
+  }
 }

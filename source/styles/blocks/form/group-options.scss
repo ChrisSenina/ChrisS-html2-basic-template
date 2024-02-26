@@ -1,5 +1,9 @@
 .group-options {
   padding: 20px 20px 10px;
+
+  @media (min-width: $tablet-width) {
+    padding: 0;
+  }
 }
 
 .group-options__list {

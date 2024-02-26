@@ -1,6 +1,16 @@
 .group-price {
   padding: 24px 20px 28px;
   border: none;
+
+  @media (min-width: $tablet-width) {
+    padding: 0;
+  }
+}
+
+.group-price__title {
+  @media (min-width: $tablet-width) {
+    padding-bottom: 24px;
+  }
 }
 
 .group-price__container {
@@ -9,18 +19,18 @@
 }
 
 .group-price__wrapper {
-  position: relative;
   padding: 25px 0 0 2px;
   display: flex;
-  gap: 44px;
+  gap: 18px;
+  align-items: center;
+
+  @media (min-width: $tablet-width) {
+    padding-top: 21px;
+  }
 }
 
-.group-price__wrapper::after {
-  content: '';
-  position: absolute;
+.group-price__line {
   background-color: $basic-grey;
   width: 8px;
   height: 2px;
-  bottom: 21px;
-  left: 137px;
 }

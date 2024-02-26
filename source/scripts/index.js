@@ -5,7 +5,7 @@ import { navStart } from './nav';
 import { updateSlider } from './slider';
 import { rangeSliderInit } from './range';
 
-navStart ();
+navStart();
 updateSlider();
 
 const init = () => {
@@ -14,4 +14,13 @@ const init = () => {
 
 window.addEventListener('DOMContentLoaded', init);
 
+const docWidth = document.documentElement.offsetWidth;
 
+[].forEach.call(
+  document.querySelectorAll('*'),
+  (el) => {
+    if (el.offsetWidth > docWidth) {
+      console.log(el);
+    }
+  }
+);

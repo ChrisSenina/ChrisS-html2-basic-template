@@ -1,9 +1,17 @@
 .group-country {
   padding: 20px 20px 0;
+
+  @media (min-width: $tablet-width) {
+    padding: 0;
+  }
 }
 
 .group-country__list {
   padding-left: 36px;
+
+  @media (min-width: $tablet-width) {
+    padding-left: 33px;
+  }
 }
 
 .group-country__item {

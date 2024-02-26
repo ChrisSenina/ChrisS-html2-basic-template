@@ -1,23 +1,24 @@
 .features {
   margin: 0;
-  padding: 53px 0 60px 0;
+  padding: 51px 0 60px 0;
   min-width: 320px;
   font-family: "Montserrat", sans-serif;
   text-align: center;
 
   @media (min-width: $tablet-width) {
-    padding: 60px 20px 0 30px;
+    padding: 63px 35px 102px 30px;
   }
 
   @media (min-width: $desktop-width) {
-    padding: 99px 30px 0 30px;
+    padding: 99px 30px 112px;
   }
 }
 
 .features__tag {
-  letter-spacing: 1px;
+  padding-right: 2px;
 
   @media (min-width: $tablet-width) {
+    padding-right: unset;
     padding-left: 5px;
   }
 
@@ -28,7 +29,7 @@
 
 .features__heading {
   margin: 0;
-  padding: 3px 17px 0 13px;
+  padding: 5px 17px 0 13px;
   font-weight: 700;
   font-size: 24px;
   line-height: 36px;
@@ -36,11 +37,22 @@
   @media (min-width: $tablet-width) {
     font-size: 42px;
     line-height: 64px;
-    padding: 3px 11px 0 16px;
+    padding: 3px 22px 0 16px;
+
   }
 
   @media (min-width: $desktop-width) {
+    padding: 5px 13px 0 11px;
+  }
+}
+
+.features__heading-name {
+  @media (min-width: $tablet-width) {
     padding-left: 11px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-left: 0;
   }
 }
 
@@ -82,12 +94,13 @@
 .features__icon {
   position: absolute;
   display: block;
-  width: 52px;
+  width: 100%;
   height: 56px;
   top: 34px;
-  left: 136px;
+  left: 0;
 
   @media (min-width: $tablet-width) {
+    width: 52px;
     top: 0;
     left: 0;
   }
