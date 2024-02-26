@@ -37,8 +37,11 @@
 .catalog__block {
   @media (min-width: $desktop-width) {
     display: grid;
-    grid-template-columns: min-content min-content;
+    grid-template-columns: 318px min-content;
     grid-template-rows: min-content;
+    column-gap: 30px;
+    row-gap: 60px;
+    padding: 0 40px;
   }
 }
 
@@ -53,6 +56,12 @@
     gap: 11px;
     justify-content: flex-end;
     margin-bottom: 29px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin: 41px 0 31px;
+    padding: 0 0 0 5px;
+    gap: 8px;
   }
 }
 
@@ -101,7 +110,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    padding: 0;
+    padding: 0 0 116px;
     grid-column: -2;
   }
 }

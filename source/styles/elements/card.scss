@@ -7,10 +7,18 @@
   @media (min-width: $tablet-width) {
     margin-bottom: 26px;
   }
+
+  @media (min-width: $desktop-width) {
+    margin: 47px 0 26px;
+  }
 }
 .card__container {
   padding: 0;
   margin: 0 0 15px;
+
+  @media (min-width: $desktop-width) {
+    padding: 0 30px;
+  }
 }
 
 .card__title {
@@ -49,6 +57,10 @@
   @media (min-width: $tablet-width) {
     padding-bottom: 30px;
     margin-bottom: 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 0 30px;
   }
 }
 

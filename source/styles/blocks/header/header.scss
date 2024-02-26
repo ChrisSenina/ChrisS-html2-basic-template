@@ -4,7 +4,7 @@
     font-family: "Montserrat", sans-serif;
 
     @media (min-width: $desktop-width) {
-      padding: 1px 0 3px;
+      padding: 1px 40px 3px;
     }
   }
 
@@ -18,7 +18,7 @@
 
   @media (min-width: $desktop-width) {
     display: flex;
-    padding: 22px 40px 7px;
+    padding: 22px 0 7px;
   }
 }
 

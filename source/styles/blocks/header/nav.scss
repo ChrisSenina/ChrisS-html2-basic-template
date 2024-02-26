@@ -12,7 +12,9 @@
   }
 
   @media (min-width: $desktop-width) {
-    padding-left: 89px;
+    padding-left: unset;
+    justify-content: flex-end;
+    gap: 150px;
   }
 }
 
@@ -22,6 +24,11 @@
 
   @media (min-width: $tablet-width) {
     padding-right: 22px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-right: 0;
+    padding-left: 147px;
   }
 }
 
