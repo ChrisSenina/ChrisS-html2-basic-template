@@ -55,10 +55,13 @@
     display: flex;
     padding: 0;
     width: 277px;
+    box-sizing: border-box;
   }
 
   @media (min-width: $desktop-width) {
-    margin: 20px;
+    margin: 20px 40px;
+    width: 337px;
+    gap: 19px;
   }
 }
 
@@ -72,6 +75,10 @@
   @media (min-width: $tablet-width) {
     width: 137px;
   }
+
+  @media (min-width: $desktop-width) {
+    width: 149px;
+  }
 }
 
 .form__button--reset {
@@ -83,5 +90,10 @@
     width: 120px;
     margin-top: unset;
     margin-left: 20px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 149px;
+    margin-left: unset;
   }
 }

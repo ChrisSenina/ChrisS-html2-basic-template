@@ -27,10 +27,20 @@
   @media (min-width: $tablet-width) {
     padding-top: 21px;
   }
+
+  @media (min-width: $tablet-width) {
+    padding-top: 24px;
+    padding-left: 0;
+    gap: 20px;
+    width: 318px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
 }
 
 .group-price__line {
   background-color: $basic-grey;
   width: 8px;
   height: 2px;
+
 }

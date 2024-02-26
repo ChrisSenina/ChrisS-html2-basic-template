@@ -56,7 +56,8 @@
   }
 
   @media (min-width: 1440px) {
-    width: 274px;
+    top: 5px;
+    width: 304px;
   }
 }
 

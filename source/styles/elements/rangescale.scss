@@ -20,6 +20,11 @@
   left: 8px;
   top: 7px;
   z-index: 1;
+
+  @media (min-width: $desktop-width) {
+    top: 5px;
+    left: 0;
+  }
 }
 
 .rangescale__range-handle {

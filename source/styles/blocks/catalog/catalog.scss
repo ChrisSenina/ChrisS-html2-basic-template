@@ -38,7 +38,7 @@
   @media (min-width: $desktop-width) {
     display: grid;
     grid-template-columns: min-content min-content;
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: min-content;
   }
 }
 
@@ -89,4 +89,19 @@
 .catalog__list {
   margin: 0;
   padding: 0;
+}
+
+.catalog__pagination {
+  margin: 0;
+  padding: 0;
+
+  @media (min-width: $tablet-width) {
+    margin: 0;
+    padding: 0 20px 90px 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 0;
+    grid-column: -2;
+  }
 }
