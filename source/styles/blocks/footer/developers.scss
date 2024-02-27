@@ -29,3 +29,13 @@
   width: 12px;
   height: 16px;
 }
+
+.developers__link:hover,
+.developers__link:focus {
+  outline: none;
+  filter: invert(47%) sepia(18%) saturate(2409%) hue-rotate(217deg) brightness(89%) contrast(86%);
+}
+
+.developers__link:active {
+  filter: invert(36%) sepia(29%) saturate(896%) hue-rotate(213deg) brightness(94%) contrast(100%);
+}

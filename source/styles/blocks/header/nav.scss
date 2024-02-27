@@ -28,6 +28,7 @@
 
 .nav__link {
   padding: 15px 30px;
+  background-color: $basic-black;
 
   @media (min-width: $tablet-width) {
     padding: 28px 30px;
@@ -39,19 +40,15 @@
   }
 }
 
-.nav__link:hover {
-  fill: $basic-primary;
-}
-
+.nav__link:hover,
 .nav__link:focus {
+  color: $basic-primary;
   outline: none;
-  opacity: 0.8;
 }
 
 .nav__link:active {
   background-color: $basic-secondary;
 }
-
 
 .nav__link-text {
   font-size: 0;
@@ -86,7 +83,7 @@
 }
 
 .nav--opened .nav__toggle {
-  background: url("/images/icons/stack.svg#nav-closed.svg") no-repeat center;
+  background: url("/images/icons/stack.svg#nav-closed") no-repeat center;
   background-size: 16px 12px;
   padding: 15px 30px;
   border: none;
@@ -97,8 +94,9 @@
 }
 
 .nav--closed .nav__toggle {
-  background: url("/images/icons/stack.svg#nav-opened.svg") no-repeat center;
+  background: url("/images/icons/stack.svg#nav-opened") no-repeat center;
   background-size: 16px 12px;
+
   padding: 15px 30px;
   border: none;
 
@@ -110,6 +108,15 @@
 .nav__toggle {
   display: block;
   cursor: pointer;
+  background-color: $basic-black;
+}
+
+.nav__toggle:focus {
+  outline: none;
+}
+
+.nav__toggle:active {
+  background-color: $basic-secondary;
 }
 
 .nav--closed .nav__list-item {

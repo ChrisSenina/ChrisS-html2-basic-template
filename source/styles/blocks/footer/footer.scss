@@ -15,9 +15,10 @@
 .footer__container {
   margin: 0;
   display: flex;
-  gap: 24px;
-  padding: 17px 20px 24px;
+  gap: 19px;
+  padding: 16px 20px 20px;
   border-bottom: 1px solid $basic-secondary;
+  justify-content: center;
 
   @media (min-width: $tablet-width) {
     gap: unset;
@@ -36,6 +37,19 @@
 .footer__logo-link {
   width: 82px;
   height: 36px;
+}
+
+.footer__logo-link:hover {
+  opacity: 0.8;
+}
+
+.footer__logo-link:focus {
+  outline: none;
+  opacity: 0.8;
+}
+
+.footer__logo-link:active {
+  opacity: 0.6;
 }
 
 .footer__logo-image {

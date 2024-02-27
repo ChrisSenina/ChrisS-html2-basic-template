@@ -143,6 +143,10 @@
   background: #7859cf;
 }
 
+.noUi-connect:disabled {
+  background: #bdbdbd;
+}
+
 /* Handles and cursors;
   */
 .noUi-draggable {
@@ -158,6 +162,20 @@
   border-radius: 50%;
   background: #ffffff;
   cursor: pointer;
+}
+
+.noUi-handle:hover,
+.noUi-handle:focus {
+  outline: none;
+  background: #ccccff;
+}
+
+.noUi-handle:active {
+  background: #7859cf;
+}
+
+.noUi-handle:disabled {
+  border-color: #bdbdbd;
 }
 
 .noUi-active {

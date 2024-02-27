@@ -65,3 +65,13 @@
     left: -13px;
   }
 }
+
+.checkbox__inner:hover::before {
+  background-color: $primary-opacity;
+}
+
+.checkbox__inner:focus::before {
+  outline: none;
+  border: 2px solid $primary-lighter;
+  background-color: $primary-opacity;
+}

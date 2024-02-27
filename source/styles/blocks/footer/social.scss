@@ -5,19 +5,34 @@
 
 .social__list {
   margin: 0;
-  padding: 8px 0 0;
+  padding: 0;
   list-style: none;
   display: flex;
-  gap: 40px;
+  gap: 20px;
 
   @media (min-width: $desktop-width) {
     padding: 60px 0 0 10px;
   }
 }
 
+.social__item {
+  padding: 10px;
+  border-radius: 4px;
+}
+
 .social__link {
   width: 20px;
   height: 20px;
+}
+
+.social__item:hover,
+.social__item:focus {
+  outline: none;
+  background-color: $basic-secondary;
+}
+
+.social__item:active {
+  background-color: $primary-opacity;
 }
 
 .social__link--vkontakte {
@@ -30,4 +45,8 @@
 
 .social__link--ok {
   background: url("/images/icons/stack.svg#ok") no-repeat center center;
+}
+
+.social__link:hover{
+  filter: invert(46%) sepia(25%) saturate(1057%) hue-rotate(215deg) brightness(92%) contrast(90%);
 }

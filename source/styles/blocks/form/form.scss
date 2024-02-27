@@ -98,3 +98,7 @@
     margin-left: unset;
   }
 }
+
+.form__button--reset:disabled {
+  background-color: $light-grey;
+}

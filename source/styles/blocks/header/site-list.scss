@@ -73,3 +73,17 @@
     }
   }
 }
+
+.site-list__link:hover{
+  color: $basic-primary;
+}
+
+.site-list__link:focus {
+  outline: none;
+  color: $basic-primary;
+}
+
+.site-list__link:active {
+  color: $basic-primary;
+  background-color: $basic-secondary;
+}

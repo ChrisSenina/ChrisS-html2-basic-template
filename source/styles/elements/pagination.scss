@@ -72,8 +72,29 @@
   }
 }
 
+.pagination__link:hover::after {
+  filter: brightness(0) invert(1);
+}
+
 .pagination__link--active {
   color: $basic-black;
   background-color: transparent;
   font-weight: 600;
+}
+
+.pagination__link:hover,
+.pagination__link:focus {
+  outline: none;
+  background-color: $primary-lighter;
+  color: $basic-white
+}
+
+.pagination__link:active {
+  background-color: $primary-darker;
+  color: $basic-white;
+}
+
+.pagination__link:disabled {
+  background-color: $light-grey;
+  color: $basic-white
 }

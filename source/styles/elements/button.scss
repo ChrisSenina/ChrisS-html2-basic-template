@@ -9,3 +9,24 @@
   color: $basic-white;
   background-color: $basic-primary;
 }
+
+.button:hover {
+  background-color: $primary-lighter;
+  color: $basic-white;
+}
+
+.button:focus {
+  background-color: $primary-lighter;
+  outline: none;
+  color: $basic-white;
+}
+
+.button:active {
+  background-color: $primary-darker;
+  color: $basic-white;
+}
+
+.button:disabled {
+  background-color: $basic-grey;
+  color: $basic-white;
+}

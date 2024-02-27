@@ -103,6 +103,7 @@
   padding: 0 10px;
   box-sizing: border-box;
   border: 0;
+  border-radius: 4px;
   cursor: pointer;
   text-transform: lowercase;
   text-align: left;
@@ -113,6 +114,12 @@
     padding: 0 13px;
     background-position: right 10px top 9px;
   }
+}
+
+.catalog__select:hover,
+.catalog__select:focus {
+  outline: none;
+  background-color: $basic-secondary;
 }
 
 .catalog__list {
