@@ -1,6 +1,6 @@
 .features {
   margin: 0;
-  padding: 50px 0 60px 0;
+  padding: 50px 0 60px;
   min-width: 320px;
   font-family: "Montserrat", sans-serif;
   text-align: center;
@@ -25,7 +25,6 @@
     font-size: 42px;
     line-height: 64px;
     padding: 3px 22px 0 16px;
-
   }
 
   @media (min-width: $desktop-width) {
@@ -70,11 +69,11 @@
   position: relative;
 
   @media (min-width: $tablet-width) {
-    padding: 0px 0px 0 72px;
+    padding: 0 0 0 72px;
   }
 
   @media (min-width: $desktop-width) {
-    padding: 98px 0 0 0;
+    padding: 98px 0 0;
   }
 }
 
@@ -99,7 +98,7 @@
 }
 
 .features__icon--speed {
-  background: url('/images/icons/stack.svg#icon-speed') no-repeat center center;
+  background: url("/images/icons/stack.svg#icon-speed") no-repeat center center;
   top: 36px;
 
   @media (min-width: $tablet-width) {
@@ -112,7 +111,7 @@
 }
 
 .features__icon--fit {
-  background: url('/images/icons/stack.svg#icon-fit') no-repeat center center;
+  background: url("/images/icons/stack.svg#icon-fit") no-repeat center center;
 
   @media (min-width: $tablet-width) {
     top: -1px;
@@ -124,11 +123,11 @@
 }
 
 .features__icon--energy {
-  background: url('/images/icons/stack.svg#icon-enegry') no-repeat center center;
+  background: url("/images/icons/stack.svg#icon-enegry") no-repeat center center;
 }
 
 .features__icon--eco {
-  background: url('/images/icons/stack.svg#icon-eco') no-repeat center center;
+  background: url("/images/icons/stack.svg#icon-eco") no-repeat center center;
   top: 31px;
 
   @media (min-width: $tablet-width) {

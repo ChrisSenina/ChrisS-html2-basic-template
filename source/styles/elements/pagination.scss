@@ -25,8 +25,6 @@
   text-align: center;
 }
 
-
-
 .pagination__link--back,
 .pagination__link--next {
   line-height: 0;
@@ -57,20 +55,20 @@
 .pagination__link--back::after,
 .pagination__link--next::after {
   @media (max-width: $mobile-width-only) {
-    content: '';
+    content: " ";
     position: absolute;
     width: 10px;
     height: 10px;
     display: block;
     top: 15px;
     right: 15px;
-    background: url('/images/icons/stack.svg#arrow-back') no-repeat center center;
+    background: url("/images/icons/stack.svg#arrow-back") no-repeat center center;
   }
 }
 
 .pagination__link--next::after {
   @media (max-width: $mobile-width-only) {
-    background: url('/images/icons/stack.svg#arrow-next') no-repeat center center;
+    background: url("/images/icons/stack.svg#arrow-next") no-repeat center center;
   }
 }
 

@@ -1,16 +1,16 @@
 .header {
-    display: flex;
-    flex-wrap: nowrap;
-    font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-wrap: nowrap;
+  font-family: "Montserrat", sans-serif;
 
-    @media (min-width: $tablet-width) {
-      padding: 0 20px;
-    }
-
-    @media (min-width: $desktop-width) {
-      padding: 1px 40px 3px;
-    }
+  @media (min-width: $tablet-width) {
+    padding: 0 20px;
   }
+
+  @media (min-width: $desktop-width) {
+    padding: 1px 40px 3px;
+  }
+}
 
 .header__logo {
   display: inline-block;

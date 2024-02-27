@@ -3,9 +3,9 @@
   padding: 0;
   position: relative;
   appearance: none;
+  color: $basic-grey;
   border-radius: 50%;
   border: 2px solid $basic-grey;
-  margin: 0;
   width: 24px;
   height: 24px;
 }
@@ -49,10 +49,6 @@
   display: none;
 }
 
-.radio__input:checked+.radio__label::after {
+.radio__input:checked + .radio__label::after {
   display: block;
-}
-
-.radio__input {
-  color: $basic-grey;
 }

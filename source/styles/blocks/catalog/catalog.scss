@@ -28,12 +28,11 @@
 
 .catalog__heading {
   margin: 0 0 0 -4px;
-  padding: 0;
+  padding: 4px 20px 0;
   font-size: 24px;
   font-weight: 700;
   line-height: 36px;
   text-align: center;
-  padding: 4px 20px 0;
 
   @media (min-width: $tablet-width) {
     margin: 0;
@@ -92,7 +91,7 @@
 
 .catalog__select {
   color: $basic-primary;
-  background: url('/images/icons/stack.svg#select') no-repeat transparent;
+  background: url("/images/icons/stack.svg#select") no-repeat transparent;
   background-size: 10px 6px;
   background-position: right 13px top 9px;
   font-family: "Monsterrat", sans-serif;

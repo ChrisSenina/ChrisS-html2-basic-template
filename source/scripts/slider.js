@@ -1,8 +1,6 @@
 const slider = document.querySelector('.slider');
-// const sliderList = document.querySelector('.slider__list');
 const prevButton = document.querySelector('.slider__button-prev');
 const nextButton = document.querySelector('.slider__button-next');
-// const sliderDots = document.querySelector('slider__dot');
 const slides = Array.from(slider.querySelectorAll('.slider__item'));
 const slideCount = slides.length;
 
@@ -31,4 +29,4 @@ function updateSlider() {
   });
 }
 
-export {updateSlider};
+export { updateSlider };

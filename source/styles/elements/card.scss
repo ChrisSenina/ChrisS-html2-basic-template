@@ -96,9 +96,9 @@
 }
 
 .card__button::after {
-  content: '';
+  content: "";
   position: absolute;
-  background: url('/images/icons/stack.svg#busket') no-repeat center center;
+  background: url("/images/icons/stack.svg#busket") no-repeat center center;
   width: 20px;
   height: 16px;
   top: 9px;
