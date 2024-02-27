@@ -1,5 +1,5 @@
 .group-price {
-  padding: 24px 20px 28px;
+  padding: 24px 20px 31px;
   border: none;
 
   @media (min-width: $tablet-width) {
@@ -19,13 +19,14 @@
 }
 
 .group-price__wrapper {
-  padding: 25px 0 0 2px;
+  padding: 25px 0 0 1px;
   display: flex;
-  gap: 18px;
+  gap: 19px;
   align-items: center;
 
   @media (min-width: $tablet-width) {
-    padding-top: 21px;
+    padding: 21px 0 0 2px;
+    gap: 18px;
   }
 
   @media (min-width: $desktop-width) {
