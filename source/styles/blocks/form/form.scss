@@ -11,9 +11,9 @@
   @media (min-width: $tablet-width) {
     display: grid;
     flex-wrap: nowrap;
-    padding: 0 0 0 20px;
-    gap: 10px;
-    grid-template-columns: repeat(3, 1fr);
+    padding: 0 20px;
+    gap: 30px;
+    grid-template-columns: 223px 1fr 1fr;
   }
 
   @media (min-width: $desktop-width) {

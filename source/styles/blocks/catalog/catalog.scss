@@ -35,6 +35,10 @@
 }
 
 .catalog__block {
+  @media (max-width: $mobile-width-only) {
+    padding-bottom: 44px;
+  }
+
   @media (min-width: $desktop-width) {
     display: grid;
     grid-template-columns: 318px min-content;
@@ -44,6 +48,7 @@
     padding: 0 40px;
   }
 }
+
 
 .catalog__sort {
   display: flex;

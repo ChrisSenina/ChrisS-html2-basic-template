@@ -7,8 +7,7 @@
 
   @media (min-width: $tablet-width) {
     align-items: center;
-    padding-left: 43px;
-    justify-content: space-between;
+    gap: 64px;
   }
 
   @media (min-width: $desktop-width) {
@@ -22,13 +21,8 @@
   display: flex;
   flex-wrap: nowrap;
 
-  @media (min-width: $tablet-width) {
-    padding-right: 22px;
-  }
-
   @media (min-width: $desktop-width) {
     padding-right: 0;
-    padding-left: 147px;
   }
 }
 
@@ -36,7 +30,7 @@
   padding: 15px 30px;
 
   @media (min-width: $tablet-width) {
-    padding: 28px 29px;
+    padding: 28px 30px;
   }
 
   @media (min-width: $desktop-width) {
@@ -54,6 +48,7 @@
     line-height: 16px;
     font-style: normal;
     text-transform: uppercase;
+    padding-left: 38px;
   }
 }
 
@@ -61,7 +56,7 @@
   background: url("/images/header/account.svg") no-repeat center;
 
   @media (min-width: $desktop-width) {
-    background-position: 18px center;
+    background-position: 36px center;
     width: 112px;
   }
 }
@@ -70,7 +65,7 @@
   background: url("/images/header/basket.svg") no-repeat center;
 
   @media (min-width: $desktop-width) {
-    background-position: 19px center;
+    background-position: 38px center;
     width: 129px;
   }
 }

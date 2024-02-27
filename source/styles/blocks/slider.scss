@@ -103,11 +103,12 @@
   line-height: 48px;
   letter-spacing: 1px;
   margin: 0;
-  padding-top: 4px;
+  padding: 4px 20px 0;
 
   @media (min-width: $tablet-width) {
     font-size: 56px;
     line-height: 80px;
+    padding: 4px 0 0;
   }
 }
 
@@ -116,7 +117,7 @@
   font-weight: 400;
   line-height: 20px;
   margin: 0;
-  padding: 10px 25px 10px 22px;
+  padding: 10px 20px;
 
   @media (min-width: $tablet-width) {
     font-size: 20px;
@@ -135,7 +136,7 @@
 .slider__wrapper {
   display: flex;
   align-items: center;
-  padding: 9px 16px 0;
+  padding: 9px 20px 0;
   justify-content: center;
 
   @media (min-width: $tablet-width) {
