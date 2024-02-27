@@ -1,4 +1,4 @@
-.contacts__list {
+.contacts {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -8,6 +8,12 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 40px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 40px 0 10px;
+    grid-template-columns: repeat(3, 318px);
+    gap: 30px;
   }
 }
 

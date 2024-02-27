@@ -12,7 +12,7 @@
 </head>
 
 <body class="page__body">
-  <header class="header">
+  <header class="header" data-test="header">
     <a class="header__logo" href="https://htmlacademy.ru/intensive/adaptive">
       <picture>
         <source media="(min-width: 1440px)" srcset="images/header/logo-desktop.png" width="170" height="36">
@@ -53,7 +53,7 @@
   </header>
   <main class="main">
     <h1 class="visually-hidden">Интернет-магазин кофейных напитков</h1>
-    <section class="hero">
+    <section class="hero" data-test="hero">
       <div class="hero__slider slider">
         <ul class="slider__list">
           <li class="slider__item slider__item--flatwhite">
@@ -78,7 +78,7 @@
             </picture>
             <div class="slider__container">
               <span class="slider__tag tag">Новинка!</span>
-              <h2 class="slider__title">Декаф Флэт Уайт</h2>
+              <h2 class="slider__title">Декаф Флэт <span>Уайт</span></h2>
               <p class="slider__text">Свежесваренный кофе без кофеина из Эфиопии <br>
                 с натуральным фермерским молоком — то, что нужно <br>
                 для расслабления после тяжёлого рабочего дня</p>
@@ -167,7 +167,7 @@
         </div>
       </div>
     </section>
-    <section class="features">
+    <section class="features" data-test="features">
       <span class="features__tag tag">Преимущества</span>
       <h2 class="features__heading">Главные причины выбрать <span class="features__heading-name">Drink2Go</span></h2>
       <ul class="features__list">
@@ -193,7 +193,7 @@
         </li>
       </ul>
     </section>
-    <section class="catalog">
+    <section class="catalog" data-test="catalog">
       <span class="catalog__tag tag">Каталог</span>
       <h2 class="catalog__heading">Каталог кофейных напитков</h2>
 
@@ -500,7 +500,7 @@
         </div>
       </div>
     </section>
-    <section class="map">
+    <section class="map" data-test="map">
       <h2 class="visually-hidden">Карта интернет-магазина</h2>
       <picture>
         <source media="(min-width: 1440px)" srcset="images/map/map-desktop.svg" width="1440" height="540">
@@ -510,65 +510,67 @@
       </picture>
     </section>
   </main>
-  <footer class="footer">
-    <h2 class="visually-hidden">Контактная информация интернет-магазина</h2>
-    <div class="footer__container">
-      <a class="footer__logo-link" href="https://htmlacademy.ru/intensive/adaptive">
-        <picture>
-          <source media="(min-width: 1440px)"
-            srcset="images/footer/logo-desktop.png, images/footer/logo-desktop@2x.png 2x" width="170" height="36">
-          <source media="(min-width: 768px)" srcset="images/footer/logo-tablet.png, images/footer/logo-tablet@2x.png 2x"
-            width="170" height="36">
-          <img class="footer__logo-image" src="images/footer/logo-mobile.png"
-            srcset="images/footer/logo-mobile@2x.png 2x" width="82" height="36"
-            alt="Логотип интернет-магазина Drink2Go">
-        </picture>
-      </a>
-      <a class="footer__link" href="https://htmlacademy.ru/intensive/adaptive">
-        <p class="footer__link-text">Интернет-магазин
-          кофейных напитков</p>
-      </a>
-      <div class="footer__info social">
-        <ul class="social__list">
-          <li class="social__item">
-            <a class="social__link social__link--vkontakte" href="https://vk.com/htmlacademy">
-              <span class="visually-hidden">Вконтакте</span>
-            </a>
-          </li>
-          <li class="social__item">
-            <a class="social__link social__link--pinterest" href="https://ru.pinterest.com/keks_is_html_academy/">
-              <span class="visually-hidden">Pinterest</span>
-            </a>
-          </li>
-          <li class="social__item">
-            <a class="social__link social__link--ok" href="https://ok.ru/live/htmlacademy">
-              <span class="visually-hidden">Одноклассники</span>
-            </a>
-          </li>
-        </ul>
+  <footer class="footer" data-test="footer">
+    <div class="footer__wrapper">
+      <h2 class="visually-hidden">Контактная информация интернет-магазина</h2>
+      <div class="footer__container">
+        <a class="footer__logo-link" href="https://htmlacademy.ru/intensive/adaptive">
+          <picture>
+            <source media="(min-width: 1440px)"
+              srcset="images/footer/logo-desktop.png, images/footer/logo-desktop@2x.png 2x" width="170" height="36">
+            <source media="(min-width: 768px)"
+              srcset="images/footer/logo-tablet.png, images/footer/logo-tablet@2x.png 2x" width="170" height="36">
+            <img class="footer__logo-image" src="images/footer/logo-mobile.png"
+              srcset="images/footer/logo-mobile@2x.png 2x" width="82" height="36"
+              alt="Логотип интернет-магазина Drink2Go">
+          </picture>
+        </a>
+        <a class="footer__link" href="https://htmlacademy.ru/intensive/adaptive">
+          <p class="footer__link-text">Интернет-магазин
+            кофейных напитков</p>
+        </a>
+        <div class="footer__info social">
+          <ul class="social__list">
+            <li class="social__item">
+              <a class="social__link social__link--vkontakte" href="https://vk.com/htmlacademy">
+                <span class="visually-hidden">Вконтакте</span>
+              </a>
+            </li>
+            <li class="social__item">
+              <a class="social__link social__link--pinterest" href="https://ru.pinterest.com/keks_is_html_academy/">
+                <span class="visually-hidden">Pinterest</span>
+              </a>
+            </li>
+            <li class="social__item">
+              <a class="social__link social__link--ok" href="https://ok.ru/live/htmlacademy">
+                <span class="visually-hidden">Одноклассники</span>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
+      <ul class="footer__contacts contacts">
+        <li class="contacts__item">
+          <h3 class="contacts__title">Интернет-магазин</h3>
+          <a class="contacts__link" href="#">Каталог</a>
+          <a class="contacts__link" href="#">Доставка</a>
+          <a class="contacts__link" href="#">Способы оплаты</a>
+          <a class="contacts__link" href="#">О нас</a>
+        </li>
+        <li class="contacts__item">
+          <h3 class="contacts__title">Медиа</h3>
+          <a class="contacts__link" href="#">Блог</a>
+          <a class="contacts__link" href="#">Информация для СМИ</a>
+          <a class="contacts__link" href="#">Правовая информация</a>
+        </li>
+        <li class="contacts__item">
+          <h3 class="contacts__title">Контакты</h3>
+          <p class="contacts__text contacts__text--address">Санкт-Петербург, набережная реки Карповки, дом 5
+          </p>
+          <p class="contacts__text contacts__text--phone">+7 (999) 999-99-99</p>
+        </li>
+      </ul>
     </div>
-    <ul class="footer__contacts contacts__list">
-      <li class="contacts__item">
-        <h3 class="contacts__title">Интернет-магазин</h3>
-        <a class="contacts__link" href="#">Каталог</a>
-        <a class="contacts__link" href="#">Доставка</a>
-        <a class="contacts__link" href="#">Способы оплаты</a>
-        <a class="contacts__link" href="#">О нас</a>
-      </li>
-      <li class="contacts__item">
-        <h3 class="contacts__title">Медиа</h3>
-        <a class="contacts__link" href="#">Блог</a>
-        <a class="contacts__link" href="#">Информация для СМИ</a>
-        <a class="contacts__link" href="#">Правовая информация</a>
-      </li>
-      <li class="contacts__item">
-        <h3 class="contacts__title">Контакты</h3>
-        <p class="contacts__text contacts__text--address">Санкт-Петербург, набережная реки Карповки, дом 5
-        </p>
-        <p class="contacts__text contacts__text--phone">+7 (999) 999-99-99</p>
-      </li>
-    </ul>
     <div class="footer__developer developers">
       <p class="developers__text">Разработано в</p>
       <a class="developers__link" href="https://htmlacademy.ru/intensive/adaptive">

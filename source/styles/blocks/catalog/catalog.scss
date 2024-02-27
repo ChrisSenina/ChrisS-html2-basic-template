@@ -3,6 +3,14 @@
   margin: 0;
   padding: 0;
   background-color: $lightest-grey;
+
+  @media (min-width: $tablet-width) {
+    padding: 0 20px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 0;
+  }
 }
 
 .catalog__tag {
@@ -14,7 +22,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    padding-top: 100px;
+    padding-top: 98px;
   }
 }
 
@@ -30,7 +38,11 @@
   @media (min-width: $tablet-width) {
     font-size: 42px;
     line-height: 64px;
-    padding-left: 4px;
+    padding: 3px 0 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-top: 5px;
   }
 }
 
@@ -49,7 +61,6 @@
   }
 }
 
-
 .catalog__sort {
   display: flex;
   margin: 44px 0 20px;
@@ -57,8 +68,8 @@
   gap: 8px;
 
   @media (min-width: $tablet-width) {
-    padding: 0 18px 0 0;
-    gap: 11px;
+    padding: 0;
+    gap: 8px;
     justify-content: flex-end;
     margin-bottom: 29px;
   }
@@ -66,7 +77,6 @@
   @media (min-width: $desktop-width) {
     margin: 41px 0 31px;
     padding: 0 0 0 5px;
-    gap: 8px;
   }
 }
 
@@ -98,6 +108,11 @@
   text-align: left;
   letter-spacing: 1px;
   appearance: none;
+
+  @media (min-width: $tablet-width) {
+    padding: 0 13px;
+    background-position: right 10px top 9px;
+  }
 }
 
 .catalog__list {
@@ -111,7 +126,7 @@
 
   @media (min-width: $tablet-width) {
     margin: 0;
-    padding: 0 20px 90px 0;
+    padding: 0 0 90px;
   }
 
   @media (min-width: $desktop-width) {

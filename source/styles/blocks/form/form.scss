@@ -11,7 +11,7 @@
   @media (min-width: $tablet-width) {
     display: grid;
     flex-wrap: nowrap;
-    padding: 0 20px;
+    padding: 0;
     gap: 30px;
     grid-template-columns: 223px 1fr 1fr;
   }
