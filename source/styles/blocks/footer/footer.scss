@@ -10,6 +10,12 @@
   gap: 24px;
   padding: 17px 20px 24px;
   border-bottom: 1px solid $basic-secondary;
+
+  @media (min-width: $tablet-width) {
+    gap: unset;
+    padding: 37px 30px 24px 20px;
+    justify-content: space-between;
+  }
 }
 
 .footer__logo-link {

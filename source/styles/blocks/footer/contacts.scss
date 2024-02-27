@@ -2,12 +2,24 @@
   margin: 0;
   padding: 0;
   list-style: none;
+
+  @media (min-width: $tablet-width) {
+    padding: 0 30px 0 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+  }
 }
 
 .contacts__item {
   margin: 0;
   padding: 18px 20px 30px;
   border-bottom: 1px solid $basic-secondary;
+
+  @media (min-width: $tablet-width) {
+    padding: 7px 0 0;
+    border-bottom: none;
+  }
 }
 
 .contacts__item:last-child {
@@ -39,6 +51,10 @@
   line-height: 20px;
   font-weight: 400;
   text-transform: none;
+
+  @media (min-width: $tablet-width) {
+    padding: 20px 18px 0;
+  }
 }
 
 .contacts__text--address {
