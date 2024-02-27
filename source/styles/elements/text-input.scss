@@ -21,8 +21,10 @@
 
   @media (min-width: $tablet-width) {
     padding: 8px 10px;
-    width: 88px;
+    width: 87px;
+    height: 40px;
   }
+
   @media (min-width: $desktop-width) {
     width: 134px;
     height: 40px;

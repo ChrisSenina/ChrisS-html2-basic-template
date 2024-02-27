@@ -30,11 +30,9 @@
 
 .slider__item {
   text-align: center;
-  padding: 21px 0 70px;
-  height: 656px;
+  padding: 21px 0 59px;
 
   @media (min-width: $tablet-width) {
-    height: unset;
     padding: 61px 0 308px;
   }
 
@@ -109,6 +107,7 @@
     font-size: 56px;
     line-height: 80px;
     padding: 4px 0 0;
+    margin: 0;
   }
 }
 

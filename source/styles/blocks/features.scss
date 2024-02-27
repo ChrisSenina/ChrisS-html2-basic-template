@@ -10,20 +10,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    padding: 99px 30px 112px;
-  }
-}
-
-.features__tag {
-  padding-right: 2px;
-
-  @media (min-width: $tablet-width) {
-    padding-right: unset;
-    padding-left: 5px;
-  }
-
-  @media (min-width: $desktop-width) {
-    padding-left: 0;
+    padding: 99px 30px 110px;
   }
 }
 
@@ -87,7 +74,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    padding: 96px 0 0 0;
+    padding: 98px 0 0 0;
   }
 }
 
