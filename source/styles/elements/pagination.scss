@@ -86,7 +86,7 @@
 .pagination__link:focus {
   outline: none;
   background-color: $primary-lighter;
-  color: $basic-white
+  color: $basic-white;
 }
 
 .pagination__link:active {
@@ -96,5 +96,5 @@
 
 .pagination__link:disabled {
   background-color: $light-grey;
-  color: $basic-white
+  color: $basic-white;
 }

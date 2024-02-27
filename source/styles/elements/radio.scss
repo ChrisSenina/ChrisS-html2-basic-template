@@ -45,7 +45,6 @@
   display: inline-block;
   padding-left: 10px;
   position: relative;
-  display: inline-block;
 }
 
 .radio__label--disabled {
@@ -72,6 +71,6 @@
   outline: none;
 }
 
-.radio__input:checked+.radio__label::after {
+.radio__input:checked + .radio__label::after {
   background-color: $basic-primary;
 }
