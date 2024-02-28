@@ -2,10 +2,12 @@
 /* в этот файл добавляет скрипты*/
 
 import { navStart } from './nav';
+import { tabClick } from './nav';
 import { updateSlider } from './slider';
 import { rangeSliderInit } from './range';
 
 navStart();
+tabClick ();
 updateSlider();
 
 const init = () => {

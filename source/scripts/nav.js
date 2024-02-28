@@ -10,4 +10,14 @@ function navStart() {
   });
 }
 
+function tabClick() {
+  menuButton.addEventListener('keydown', () => {
+    nav.classList.toggle('nav--closed');
+  });
+  menuButton.addEventListener('keyup', () => {
+    nav.classList.toggle('nav--opened');
+  });
+}
+
+export { tabClick };
 export { navStart };
